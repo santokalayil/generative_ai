@@ -1,0 +1,2 @@
+class EnvFileNotFound(Exception):
+    pass
