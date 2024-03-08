@@ -5,9 +5,7 @@ genai = gemini.get()
 
 model = genai.GenerativeModel("gemini-pro")
 # response = model.generate_content("Please summarise this document: ...")
-response = model.generate_content(
-    "Tell me which as possible equity stocks I can invest on March"
-)
+response = model.generate_content("Give one Film Actor Name in Hollywood")
 print(response.text)
 
 
