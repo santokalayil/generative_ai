@@ -1,0 +1,1 @@
+# GENERATIVE AI Models along with RAG setup
